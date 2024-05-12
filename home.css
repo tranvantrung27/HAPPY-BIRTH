@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(212, 137, 195);
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%; /* Điều chỉnh vị trí từ trên xuống */
+    left: 50%; /* Điều chỉnh vị trí từ trái sang */
+    transform: translate(-50%, -50%);
+}
+
+#start {
+    top: 40%; /* Điều chỉnh vị trí của nút */
+    z-index: 1;
+}
+
+#myText {
+    top: 50%; /* Điều chỉnh vị trí của văn bản */
+}
+
+#lottie {
+    top: 60%; /* Điều chỉnh vị trí của animation */
+}
+
+
+img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.centered-text {
+    text-align: center;
+    font-size: 20px;
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.button-image {
+    width: 100px;
+    height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    img {
+        width: 100%;
+    }
+}
